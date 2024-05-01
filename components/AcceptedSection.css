@@ -1,0 +1,36 @@
+.midsection-container {
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midsection {
+    padding: 30px;
+}
+
+.hero-text{
+    text-shadow: 0.5px 0.5px rgb(0, 0, 0)
+}
+
+.heading{
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) { 
+    .midsection-container {
+        padding: 30px;
+        margin: auto;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        width: 200px;
+        height: 25px;
+    }
+}

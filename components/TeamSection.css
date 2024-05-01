@@ -1,0 +1,72 @@
+.team-wrapper {
+  /* display: flex; */
+  /* flex-flow: column; */
+  align-items: center;
+  margin: 20px;
+  /* padding: 10px; */
+  max-width: 1000px;
+  width: 90%;
+  /* margin: 0 auto; */
+  font-size: 14px;
+  text-align: left;
+}
+
+.itemImage{
+position: relative;
+margin-left: 20%;
+max-height: 300px;
+max-width: 300px;
+}
+
+.doctorPosition, .doctorName {
+text-align: left;
+}
+
+.team-container {
+/* margin: 25px; */
+padding: 20px;
+margin: 25px;
+display: flex;
+}
+
+.itemName{
+font-family: Ovo, serif;
+white-space: pre-wrap;
+height: 60%;
+width: 70%;
+}
+
+.itemSubHeading, .itemName{
+background: -webkit-linear-gradient(#4B88E4, #5b9dff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width: 960px) {
+.team-container {
+  /* margin: 25px; */
+  padding: 20px;
+  margin: 25px;
+  display: block;
+  /* margin: auto; */
+}
+
+.itemName{
+  font-size: 12px;
+  height: 60%;
+  width: 100%;
+}
+
+.itemSubHeading, .itemName{
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.itemImage{
+  position: relative;
+  margin-left: 5%;
+  max-height: 200px;
+  max-width: 200px;
+}
+}

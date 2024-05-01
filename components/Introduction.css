@@ -1,0 +1,22 @@
+.intro {
+    background: #FFF6FA;
+    padding: 20px;
+  }
+
+.intro-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+.introText {
+  color: #F683B3;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 100;
+}

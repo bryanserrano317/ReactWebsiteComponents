@@ -1,0 +1,40 @@
+.wrapper {
+    background-color: #FFF6FA;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .accordion {
+    width: 100%;
+  
+  }
+  
+  .item {
+    background: #FFF6FA;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .content {
+    color: #000000;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0,1,0,1);
+  }
+  
+  .content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.2s cubic-bezier(1,0,1,0);
+  }
