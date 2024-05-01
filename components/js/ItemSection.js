@@ -5,7 +5,7 @@ import IntroductionCards from './IntroductionCards';
 import { Link } from 'react-router-dom';
  
 
-export const TeamSection = (props) => {
+export const ItemSection = (props) => {
     return (
         <div className='team-container'>
             <img className='itemImage' src={props.imgsrc}></img>
@@ -18,4 +18,4 @@ export const TeamSection = (props) => {
     )
 }
 
-export default TeamSection;
+export default ItemSection;

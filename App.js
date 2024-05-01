@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/js/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Home from './components/Pages/Home';
-import NotFound from './components/NotFound';
+import NotFound from './components/js/NotFound';
 
 function App() {
   return (
